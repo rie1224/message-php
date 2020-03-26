@@ -56,7 +56,7 @@
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     }catch(PDOException $e){
-    echo $e -> getName();
+    echo $e -> getMessage();
     die();
     }
     //接続を解除
