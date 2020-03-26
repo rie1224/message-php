@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  font-family: 'arial unicode ms';
+}
+body{
+  background: -webkit-linear-gradient(125deg, white 0%, #E1E6EC 100%);
+  background: linear-gradient(125deg, white 0%,#E1E6EC 100%);
+  background-blend-mode: normal,color-burn;
+  padding-bottom: 50px;
+
+}
+
+h2{
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  margin: 30px auto;
+}
+
+.wrapper{
+  background-image : url(wood3.jpg);
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+.pagination{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.message{
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.date{
+  text-align: right;
+  width: 300px;
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+}
+
+.form{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.name-form{
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+  vertical-align: top;
+  border-radius: 5px;
+  padding: 10px;
+  border: solid 1px;
+
+}
+
+.text-form{
+  width: 620px;
+  margin: 10px;
+  height: 50px;
+  vertical-align: top;
+  border-radius: 5px;
+  padding: 10px;
+  border: solid 1px;
+}
+
+.btn{
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #417038;
+  border-radius: 5px;
+  border: solid 1px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
